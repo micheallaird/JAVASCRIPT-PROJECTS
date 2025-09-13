@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Loops and Arrays</title>
+    <script src="JS/main.js" defer></script>
+</head>
+
+<body>
+    <h1>JavaScript Loops and Arrays</h1>
+    <!--String Length-->
+    <h2>JavaScript String Length Property</h2>
+    <p>In this example, the string length property is used to display the length of the string <strong>text</strong>.
+        The length is displayed in the paragraph with the id <strong>string_length</strong> when the button is clicked.
+    </p>
+    <p id="string_length"></p>
+    <button onclick="string_length()">Click here for string length.</button>
+    <!--For Loop-->
+    <h2>JavaScript For Loop</h2>
+    <p>In this example, the for loop iterates through the elements of the array <strong>Instruments</strong>.
+        The list is displayed in the paragraph with the id <strong>List_of_Instruments</strong> when the button is
+        clicked.</p>
+    <p id="List_of_Instruments"></p>
+    <button onclick="for_Loop()">Click here for list.</button>
+    <!--Arrays-->
+    <h2>JavaScript Arrays</h2>
+    <p>In this example, the array <strong>Dog_Picture</strong> contains a list of dog breeds.
+        The array is displayed in the paragraph with the id <strong>Dog</strong> when the button is clicked.</p>
+    <p id="Dog"></p>
+    <button onclick="dog_pics()">Click here for array.</button>
+    <!--Constant Arrays-->
+    <h2>JavaScript Constant Arrays</h2>
+    <p>In this example, the constant array <strong>Cars</strong> cannot be changed to reference a different array.
+        But, the elements of the array <strong>Cars</strong> are changed.</p>
+    <p id="Constant"></p>
+    <button onclick="constant_function()">Click here for constant array.</button>
+    <!--Let Keyword-->
+    <h2>The Let Keyword</h2>
+    <p>The let keyword declares a block scope local variable, optionally initializing it to a value.
+        In this example, the variable <strong>X</strong> is declared with the let keyword inside a block.
+        The value of <strong>X</strong> inside the block is different from the value of <strong>X</strong> outside the
+        block.</p>
+    <p id="Let"></p>
+    <button onclick="let_function()">Click here for let keyword.</button>
+    <!--Return Statement-->
+    <h2>The Return Statement</h2>
+    <p>The return statement stops the execution of a function and returns a value from that function.
+        In this example, the function <strong>return_function</strong> returns a greeting message that includes the name
+        stored in the variable <strong>name</strong>.
+        The returned message is displayed in the paragraph with the id <strong>Return</strong> when the button is
+        clicked.</p>
+    <p id="Return"></p>
+    <button onclick="document.getElementById('Return').innerHTML = return_function()">Click here for return
+        statement.</button>
+    <!--Object-->
+    <h2>JavaScript Object</h2>
+    <p>In this example, the object <strong>Car</strong> is created with properties such as make, model, year, and color.
+        The description of the car is displayed in the paragraph with the id <strong>Object</strong> when the button is
+        clicked.</p>
+    <p id="Car_Object"></p>
+    <button onclick="car_object()">Click here for object.</button>
+    <!--Break Statement-->
+    <h2>JavaScript Break Statement</h2>
+    <p>In this example, the break statement is used to exit the loop when the
+        variable <strong>i</strong> is equal to 3.
+        The numbers before the break statement are displayed in the paragraph with the id <strong>Break</strong> when
+        the button is clicked.</p>
+    <p id="Break"></p>
+    <button onclick="break_function()">Click here for break statement.</button>
+    <!--Continue Statement-->
+    <h2>JavaScript Continue Statement</h2>
+    <p>In this example, the continue statement is used to skip the iteration when the
+        variable <strong>i</strong> is equal to 3.
+        The numbers excluding the one skipped by the continue statement are displayed in the paragraph with the id
+        <strong>Continue</strong> when the button is clicked.</p>
+    <p id="Continue"></p>
+    <button onclick="continue_function()">Click here for continue statement.</button>
+</body>
+
+</html>
