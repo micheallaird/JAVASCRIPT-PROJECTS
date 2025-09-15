@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML_1</title>
+    <script src="JavaScript/JavaScript_1.js"></script>
+</head>
+
+<body>
+    <!--Switch Statement-->
+    <h1>What is your favorite Corvette?</h1>
+    <h3>Pick your favorite Corvette from this list:</h3>
+    <ul>
+        <li>C1</li>
+        <li>C2</li>
+        <li>C3</li>
+        <li>C4</li>
+        <li>C5</li>
+        <li>C6</li>
+        <li>C7</li>
+        <li>C8</li>
+    </ul>
+    <h3>Enter your choice below:</h3>
+
+    <input id="Corvette_Input" type="text" placeholder="Type a Corvette here">
+    <button type="submit" onclick="Corvette_Function()">Submit Corvette</button>
+    <p id="Output"></p>
+
+    <!--Window Object Properties-->
+    <!--Window Closed Object Property-->
+    <h1>The Window Object</h1>
+    <h2>The closed Property</h2>
+
+    <p><button onclick="openWin()">Open "myWindow"</button></p>
+    <p><button onclick="closeWin()">Close "myWindow"</button></p>
+    <p><button onclick="checkWin()">Is "myWindow" closed?</button></p>
+
+    <div id="window_closed"></div>
+
+    <!--pageXOffset and pageYOffset Object Property-->
+    <h2>The pageXOffset and pageYOffset Properties</h2>
+
+    <p>Click the button to identify location of offset.</p>
+
+    <button onclick="myFunction()" style="position:fixed;">Click me to show offset</button><br><br>
+
+    <div></div>
+
+    <!--Window Object Methods-->
+    <!--Alert() Method Object-->
+    <h2>The alert() Method</h2>
+
+    <p>Click the button to display an alert box.</p>
+
+    <button onclick="myFunction1()">Try it</button>
+
+    <!--open() Method-->
+    <h2>The open() Method</h2>
+
+    <p>Click the button to open a new browser window.</p>
+
+    <button onclick="myFunction2()">Try it</button>
+
+    <!--getElementsByClassName-->
+    <h1 class="Click">This text will change!</h1>
+    <h3 class="Click">This text will also change.</h3>
+    <button onclick="Hello_World_Function()">Click Me for the h1 text!</button>
+    <button onclick="Hello_World_Function1()">Click Me for the h3 text!</button>
+    <br>
+    <br>
+    <!--HTML Canvas Element-->
+    <h2>The fillRect() Method</h2>
+
+    <canvas id="myCanvas" width="300" height="150" style="border:1px solid grey"></canvas><br>
+    <button type="submit" onclick="myCanvas_Function()">fillRect()</button><br>
+    <!--Linear Gradient-->
+    <canvas id="myCanvas1" width="300" height="150" style="border:1px solid grey"></canvas>
+</body>
+
+</html>
