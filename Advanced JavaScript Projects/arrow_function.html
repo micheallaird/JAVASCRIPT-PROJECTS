@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Arrow Function and some() Method</title>
+</head>
+
+<body>
+    <!--Arrow Function-->
+    <h2>The Arrow Function</h2>
+
+    <h3>This example shows the syntax of an Arrow Function.</h3>
+
+    <p id="arrow"></p>
+
+    <script>
+        let hello = () => "The arrow function simplifies syntax";
+
+        document.getElementById("arrow").innerHTML = hello();
+    </script>
+
+    <!--some() method-->
+    <h2>The some() Method</h2>
+
+    <h3>The some() method checks if some array values pass a test:</h3>
+
+    <p id="some"></p>
+
+    <script>
+        const numbers = [45, 4, 9, 16, 25];
+        const myFunction = value => value > 18;
+        let someOver18 = numbers.some(myFunction);
+
+        document.getElementById("some").innerHTML = "Some over 18 is " + someOver18;
+    </script>
+</body>
+
+</html>
