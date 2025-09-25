@@ -5,7 +5,7 @@ function loadDoc() {
      document.getElementById("response").innerHTML = this.responseText;
     }
   };
-  xhttp.open("GET", "ajax_response.html", true);
+  xhttp.open("GET", "content.html", true);
   xhttp.send();
 }
 
