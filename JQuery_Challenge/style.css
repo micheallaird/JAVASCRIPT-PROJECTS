@@ -1,0 +1,12 @@
+
+/* Basic styles for the webpage */
+h1 {
+    color: blue;
+    font-size: 24px;
+}
+
+p {
+    color: gray;
+    font-size: 16px;
+}
+
