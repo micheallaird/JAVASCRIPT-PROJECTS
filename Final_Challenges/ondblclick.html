@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Head Section -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Double Click Event</title>
+    </head>
+    <body>
+        <!--ondblclick Event Section-->
+        <h1>The ondblclick Event</h1>
+        <p ondblclick="dblclickfunction()">Double click me!</p>
+        <p id="demo"></p>
+        <script>
+            function dblclickfunction() {
+                document.getElementById("demo").innerHTML += "You double clicked the paragraph!";
+            }
+        </script>
+    </body>
+</html>

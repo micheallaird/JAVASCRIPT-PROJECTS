@@ -1,0 +1,36 @@
+/* Styles for slideshow container */
+
+#slideshow {
+    margin: 50px auto;
+    position: relative;
+    width: 240px;
+    height: 240px;
+    padding: 0px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+
+#slideshow>div {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+/* Styles for heading */
+h1 {
+    color: red;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+/* Styles for images */
+img {
+    width: 150%;
+    height: auto;
+    border-radius: 10px;
+}
+

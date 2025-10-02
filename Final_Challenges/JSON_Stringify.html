@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p id="myDog"></p>
+        <script>
+            /* Stringify Method */
+            /* JavaScript dictionary object */
+            var dog = {
+                name: "Remington",
+                breed: "Labrador",
+                color: "Brown",
+                age: 1,
+                };
+                /* convert JavaScript objects to string format */
+                var JSONstring = JSON.stringify(dog);
+                document.getElementById("myDog").innerHTML = JSONstring;
+        </script>
+    </body>
+</html>

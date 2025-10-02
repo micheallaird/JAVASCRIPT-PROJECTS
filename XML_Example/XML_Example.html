@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <body>
+        <p id="XML_Example"></p>
+        <script>
+            var XML_Parser, XML_Document;
+
+            //creates a text string
+            var Family = "<family>" +
+                "<father>Micheal</father>" +
+                "<mother>Sonya</mother>" +
+                "<child>Virginia</child>" +
+                "<child>Austin</child>" +
+                "</family>";
+
+                //creates an XML DOM parser
+                XML_Parser = new DOMParser();
+
+                //crates a new XML DOM object using the tex string
+                XML_Document = XML_Parser.parseFromString(Family, "text/xml");
+
+                document.getElementById("XML_Example").innerHTML =
+                XML_Document.getElementsByTagName("father")[0].childNodes[0].nodeValue;
+        </script>
+    </body>
+</html>
